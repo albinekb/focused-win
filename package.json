@@ -1,0 +1,11 @@
+{
+  "name": "focused-win",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "execa": "^0.6.3"
+  },
+  "scripts": {
+    "build": "mkdir -p build && swiftc swift/main.swift -target x86_64-apple-macosx10.12 -o build/focused-win"
+  }
+}
